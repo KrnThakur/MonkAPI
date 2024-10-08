@@ -7,7 +7,6 @@ MonkAPI is a Spring Boot-based application designed to manage and apply various 
 - [Project Structure](#project-structure)
 - [Endpoints](#endpoints)
 - [Implemented Cases](#implemented-cases)
-- [Unimplemented Cases](#unimplemented-cases)
 - [Limitations](#limitations)
 - [Assumptions](#assumptions)
 ---
@@ -206,20 +205,6 @@ src/
     - Each BxGy coupon has a repetition_limit field that specifies the maximum number of times the coupon can be applied.
     - During coupon application, the system checks the number of times the coupon has already been applied.
     - If the number of applications exceeds the repetition_limit, the coupon is not applied
-
-
-
-## Unimplemented Cases
-
-1. **Cart-Wise Discounts**:
-    - Cart-wide discounts (e.g., a flat discount or percentage discount based on total cart value) were planned but not implemented. These discounts would apply based on a total cart value threshold.
-    - **Reason**: Due to time constraints and focus on the BxGy functionality, this feature was left out.
-
-2. **Product-Specific Discounts**:
-    - Discounts tied to specific products (e.g., a 10% discount on a single product) were not implemented.
-    - **Reason**: This feature required further integration with product-specific business rules, which were not available during development.
-
----
 
 ## Limitations
 
