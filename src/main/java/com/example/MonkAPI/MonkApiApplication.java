@@ -8,7 +8,6 @@ public class MonkApiApplication {
 
 	public static void main(String[] args) {
 		System.out.println("Application Started");
-		System.out.println(new RuntimeExcefdfption());
 		SpringApplication.run(MonkApiApplication.class, args);
 	}
 
